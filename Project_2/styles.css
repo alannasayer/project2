@@ -1,0 +1,89 @@
+/* Reset some basic elements for consistency */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: pink;
+    color: #111;
+    line-height: 1.6;
+}
+
+/* Center the content */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+header, section, footer {
+    margin-bottom: 20px;
+    text-align: center; /* Centering text */
+}
+
+/* Styling the image */
+.profile {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+/* Links and Buttons */
+a {
+    display: inline-block;
+    background-color: #111111;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #043243;
+}
+
+/* Project and Experience sections */
+article, div {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+section {
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+header {
+    text-align: center; /* Center align the header content */
+}
+
+article {
+    flex: 0 0 auto; /* Prevent flex items from growing */
+    width: 100%; /* Each article spans the full width of the container */
+    margin-bottom: 20px; /* Add some margin between articles */
+}
+
+.experience img {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+h3 {
+    color: #111111;
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* Additional Styling */
+/* You can add more styling here as needed */
